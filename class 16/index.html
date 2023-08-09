@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Practice</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Service
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Web Design</a></li>
+            <li><a class="dropdown-item" href="#">web Development</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Digital Merketing</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Team</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a></li>
+        <li class="nav-item"><a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModale">Signup</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="container">
+		<h1 class="bg-success p-4 mt-4 text-center text-white">Bootstrap Practice</h1>
+	</div>
+
+
+     
+    <div class="container">
+    	<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slider-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-primary">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider-4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider-5.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider-6.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+
+       
+
+       <div class="row my-5 justify-content-center">
+         <div class="col-lg-6">
+           <div class="card">
+             <div class="card-header">
+               <h4 class="card-title">Bootstrap Form</h4>
+             </div>
+             <div class="card-body">
+               <div class="my-3">
+                 <label>Full Name</label>
+                 <input type="text" name="name" class="form-control">
+               </div>
+               <div class="my-3">
+                 <label>Email</label>
+                 <input type="email" name="email" class="form-control">
+               </div>
+               <div class="my-3">
+                 <label>Password</label>
+                 <input type="password" name="password" class="form-control">
+               </div>
+               <div class="my-3">
+                 <label>Select Country</label>
+                 <select class="form-select">
+                   <option>Bangladesh</option>
+                   <option>India</option>
+                   <option>Chaina</option>
+                   <option>Nepal</option>
+                 </select>
+               </div>
+               <div class="my-3">
+                 <label>Gender</label>
+                 <div class="form-check form-check-inline ">
+                   <input type="radio" name="gender" class="form-check-input" value="male">
+                   <label>Male</label>
+                 </div>
+                 <div class="form-check form-check-inline ">
+                   <input type="radio" name="gender" class="form-check-input" value="famale">
+                   <label>Famale</label>
+                 </div>
+                 <div class="form-check form-check-inline ">
+                   <input type="radio" name="gender" class="form-check-input" value="others">
+                   <label>others</label>
+                 </div>
+               </div>
+               <div class="my-3">
+                   <label>Address</label>
+                   <textarea name="address" class="form-control"></textarea>
+                 </div>
+                 <div class="my-3">
+                   <div class="form-check">
+                     <input type="checkbox" class="form-check-input">
+                     <label>Save Password</label>
+                   </div>
+                 </div>
+                 <div class="d-grid my-3">
+                   <input type="submit" name="submit" class="btn btn-success">
+                 </div>
+               </div> 
+             </div>  
+           </div>
+         </div>
+       </div>
+
+
+
+<!-- Login -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login Here</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="my-3">
+                 <label>Email</label>
+                 <input type="email" name="email" class="form-control">
+               </div>
+               <div class="my-3">
+                 <label>Password</label>
+                 <input type="password" name="password" class="form-control">
+               </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Signup -->
+<div class="modal fade" id="exampleModale" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login Here</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="my-3">
+                 <label>Email</label>
+                 <input type="email" name="email" class="form-control">
+               </div>
+               <div class="my-3">
+                 <label>Password</label>
+                 <input type="password" name="password" class="form-control">
+               </div>
+               <div class="my-3">
+                 <label>Select Country</label>
+                 <select class="form-select">
+                   <option>Bangladesh</option>
+                   <option>India</option>
+                   <option>Chaina</option>
+                   <option>Nepal</option>
+                 </select>
+               </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Html</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Css</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Php</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.</div>
+</div>
+
+
+     <!-- script tag start -->
+
+     <script src="bootstrap/js/popper.min.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

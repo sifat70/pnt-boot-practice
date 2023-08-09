@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+</head>
+<body>
+<h3> বিনোদন ডেস্ক </h3>
+<h1>বুবলীকে নিয়ে বান্দরবানে সাইমন</h1>
+
+<h4> ২৩ অক্টোবর ২০২২, ১০:০০ এএম  |  অনলাইন সংস্করণ</h4>
+
+<!--
+	HTML Coment
+     1.Heading
+     2.paragraph
+     3.image
+     4.link
+     5.table
+     6.list
+     7.form
+     8.div -->
+
+
+</body>
+</html>
